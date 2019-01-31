@@ -1,0 +1,22 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/chart_age_groups"
+            android:layout_width="match_parent"
+            android:layout_height="270dp" />
+
+        <com.github.mikephil.charting.charts.HorizontalBarChart
+            android:id="@+id/chart_age_demographics"
+            android:layout_width="match_parent"
+            android:layout_height="270dp" />
+
+    </LinearLayout>
+
+</ScrollView>

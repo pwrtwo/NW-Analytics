@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.keyboardape.newwestminsteranalyticsapp.maplayerinfo.BusinessDensityFragment"
+    android:background="#EEFFFFFF"
+    android:paddingBottom="60dp"
+    android:layout_marginTop="60dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Existing Businesses in 2017"
+                android:layout_margin="10dp"/>
+
+            <com.github.mikephil.charting.charts.CombinedChart
+                android:id="@+id/business_age_chart"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"/>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/building_age_percentage_chart"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

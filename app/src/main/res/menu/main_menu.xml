@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_map"
+        android:title="@string/menu_map"
+        android:icon="@drawable/ic_map_black_24dp"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_charts"
+        android:icon="@drawable/ic_insert_chart_black_24dp"
+        android:title="@string/menu_charts"
+        app:showAsAction="always"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_share"-->
+        <!--android:title="action_share"-->
+        <!--app:showAsAction="always"-->
+        <!--app:actionProviderClass="android.support.v7.widget.ShareActionProvider" />-->
+</menu>

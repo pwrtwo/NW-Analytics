@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">NW Analytics</string>
+    <string name="title_activity_maps">Heatmaps</string>
+    <string name="title_activity_charts">Most Popular Businesses</string>
+    <string name="title_demo2001">Demographics 2001</string>
+    <string name="title_demo2006">Demographics 2006</string>
+    <string name="title_demo2011">Demographics 2011</string>
+    <string name="title_demo2016">Demographics 2016</string>
+
+
+    <!-- Toolbar Menu -->
+    <string name="menu_map">View Heatmaps</string>
+    <string name="menu_charts">View Charts</string>
+
+
+    <!-- MainActivity -->
+    <string name="progress_title">Downloading Datasets</string>
+    <string name="progress_description">You must download the following data sets!</string>
+
+    <!-- DataSet Labels -->
+    <string name="dataset_building_attributes">Building Attributes</string>
+    <string name="dataset_skytrain_stations">Skytrain Stations</string>
+    <string name="dataset_bus_stops">Bus Stops</string>
+    <string name="dataset_business_licenses">Business Licenses</string>
+    <string name="dataset_major_shoppings">Major Shoppings</string>
+    <string name="dataset_building_age">Building Age</string>
+    <string name="dataset_high_rises">High Rises</string>
+    <string name="dataset_age_demographics">Age Demographics</string>
+    <string name="dataset_school_buildings">School Buildings</string>
+
+    <!-- Buttons -->
+    <string name="btn_view_maps">View Heatmaps</string>
+    <string name="btn_view_charts">View Charts</string>
+
+    <!-- MapsActivity -->
+    <string name="layer_population_density">Population Density</string>
+    <string name="layer_building_age">Building Age</string>
+    <string name="layer_high_rises">Highrise Buildings</string>
+    <string name="layer_business_density">Business Density</string>
+    <string name="layer_public_transit">Public Transit</string>
+    <string name="layer_school_buildings">School Buildings</string>
+
+    <!-- ChartActivity -->
+    <string name="top_ten_title">Most Popular Businesses in New West</string>
+</resources>
